@@ -1,5 +1,6 @@
 [apps/guake/general]
 compat-delete='delete-sequence'
+default-shell='/usr/bin/zsh'
 display-n=0
 display-tab-names=0
 gtk-use-system-default-theme=true
@@ -31,6 +32,9 @@ window-width=100
 show-hide='<Super>grave'
 
 [apps/guake/keybindings/local]
+close-tab='<Primary>w'
+new-tab='<Primary>t'
+reset-terminal='<Primary>k'
 switch-tab1='<Primary>1'
 switch-tab10='<Primary>0'
 switch-tab2='<Primary>2'
