@@ -1,0 +1,135 @@
+[apps/guake/general]
+compat-delete='delete-sequence'
+display-n=0
+display-tab-names=0
+gtk-use-system-default-theme=true
+hide-tabs-if-one-tab=false
+history-size=1000
+infinite-history=true
+max-tab-name-length=100
+mouse-display=true
+open-tab-cwd=true
+prompt-on-quit=true
+quick-open-command-line='gedit %(file_path)s'
+restore-tabs-notify=true
+restore-tabs-startup=true
+save-tabs-when-changed=true
+scroll-keystroke=true
+start-at-login=false
+use-default-font=true
+use-popup=true
+use-scrollbar=true
+use-trayicon=true
+window-halignment=0
+window-height=50
+window-losefocus=true
+window-refocus=false
+window-tabbar=true
+window-width=100
+
+[apps/guake/keybindings/global]
+show-hide='<Super>grave'
+
+[apps/guake/keybindings/local]
+switch-tab1='<Primary>1'
+switch-tab10='<Primary>0'
+switch-tab2='<Primary>2'
+switch-tab3='<Primary>3'
+switch-tab4='<Primary>4'
+switch-tab5='<Primary>5'
+switch-tab6='<Primary>6'
+switch-tab7='<Primary>7'
+switch-tab8='<Primary>8'
+switch-tab9='<Primary>9'
+
+[apps/guake/style/background]
+transparency=90
+
+[apps/guake/style/font]
+allow-bold=true
+palette='#000000000000:#cccc00000000:#4e4e9a9a0606:#c4c4a0a00000:#34346565a4a4:#757550507b7b:#060698209a9a:#d3d3d7d7cfcf:#555557575353:#efef29292929:#8a8ae2e23434:#fcfce9e94f4f:#72729f9fcfcf:#adad7f7fa8a8:#3434e2e2e2e2:#eeeeeeeeecec:#ffffffffffff:#000000000000'
+palette-name='Tango'
+
+[io/elementary/appcenter/settings]
+cached-drivers=['nvidia-driver-525-server, (kernel modules provided by nvidia-dkms-525-server)', 'nvidia-driver-515-open, (kernel modules provided by nvidia-dkms-515-open)', 'nvidia-driver-525-open, (kernel modules provided by nvidia-dkms-525-open)', 'nvidia-driver-515-server, (kernel modules provided by nvidia-dkms-515-server)', 'nvidia-driver-470, (kernel modules provided by nvidia-dkms-470)', 'nvidia-driver-470-server, (kernel modules provided by nvidia-dkms-470-server)', 'nvidia-driver-450-server, (kernel modules provided by nvidia-dkms-450-server)', 'nvidia-driver-510, (kernel modules provided by nvidia-dkms-510)', 'nvidia-driver-525, (kernel modules provided by nvidia-dkms-525)', 'nvidia-driver-418-server, (kernel modules provided by nvidia-dkms-418-server)']
+last-refresh-time=int64 1677352071
+
+[org/gnome/control-center]
+last-panel='keyboard'
+
+[org/gnome/desktop/app-folders/folders/Pop-Office]
+apps=['libreoffice-calc.desktop', 'libreoffice-draw.desktop', 'libreoffice-impress.desktop', 'libreoffice-math.desktop', 'libreoffice-startcenter.desktop', 'libreoffice-writer.desktop']
+name='Office'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Pop-System]
+apps=['gnome-language-selector.desktop', 'gnome-session-properties.desktop', 'gnome-system-monitor.desktop', 'im-config.desktop', 'nm-connection-editor.desktop', 'nvidia-settings.desktop', 'org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.PowerStats.desktop', 'org.gnome.seahorse.Application.desktop', 'software-properties-gnome.desktop', 'system76-driver.desktop', 'system76-firmware.desktop']
+name='System'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Pop-Utility]
+apps=['com.github.donadigo.eddy.desktop', 'com.system76.Popsicle.desktop', 'gucharmap.desktop', 'info.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.Extensions.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.Totem.desktop', 'pop-cosmic-applications.desktop', 'pop-cosmic-launcher.desktop', 'pop-cosmic-workspaces.desktop', 'simple-scan.desktop', 'yelp.desktop']
+name='Utilities'
+translate=true
+
+[org/gnome/desktop/input-sources]
+current=uint32 0
+per-window=false
+sources=[('xkb', 'us')]
+xkb-options=['altwin:hyper_win']
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+font-antialiasing='grayscale'
+font-hinting='slight'
+
+[org/gnome/desktop/notifications]
+application-children=['firefox', 'gnome-power-panel']
+
+[org/gnome/desktop/notifications/application/firefox]
+application-id='firefox.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=true
+
+[org/gnome/desktop/peripherals/touchpad]
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+report-technical-problems=false
+
+[org/gnome/desktop/wm/keybindings]
+activate-window-menu=@as []
+switch-group=@as []
+switch-group-backward=@as []
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1]
+binding='Launch1'
+command='gnome-control-center wifi'
+name='WiFi'
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=1800
+sleep-inactive-ac-type='suspend'
+sleep-inactive-battery-timeout=1800
+sleep-inactive-battery-type='suspend'
+
+[org/gnome/shell]
+welcome-dialog-last-shown-version='42.5'
+
+[org/gnome/shell/extensions/dash-to-dock]
+extend-height=false
+manualhide=false
+
+[org/gnome/shell/extensions/pop-shell]
+activate-launcher=['<Super>slash', '<Alt>space']
+
+[org/gnome/system/location]
+enabled=false
