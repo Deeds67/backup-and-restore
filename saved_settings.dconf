@@ -59,7 +59,7 @@ cached-drivers=['nvidia-driver-525-server, (kernel modules provided by nvidia-dk
 last-refresh-time=int64 1677352071
 
 [org/gnome/control-center]
-last-panel='keyboard'
+last-panel='desktop-dock'
 
 [org/gnome/desktop/app-folders/folders/Pop-Office]
 apps=['libreoffice-calc.desktop', 'libreoffice-draw.desktop', 'libreoffice-impress.desktop', 'libreoffice-math.desktop', 'libreoffice-startcenter.desktop', 'libreoffice-writer.desktop']
@@ -129,7 +129,10 @@ sleep-inactive-battery-type='suspend'
 welcome-dialog-last-shown-version='42.5'
 
 [org/gnome/shell/extensions/dash-to-dock]
+click-action='minimize-or-previews'
+dock-fixed=false
 extend-height=false
+intellihide=true
 manualhide=false
 
 [org/gnome/shell/extensions/pop-shell]
