@@ -2,4 +2,7 @@ backup:
 	./backup.sh
 
 restore:
-	./auto.sh
+	./restore.sh
+
+install:
+	./install.sh
