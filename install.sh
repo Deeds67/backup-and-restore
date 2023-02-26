@@ -47,6 +47,10 @@ curl https://sh.rustup.rs -sSf | sh -s -- -y
 ## Install SDKMan
 # https://sdkman.io/
 curl -s "https://get.sdkman.io" | bash 
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+## Install kotlin
+sdk install kotlin
 
 ## Install fuzzy finder
 # https://github.com/junegunn/fzf
