@@ -47,3 +47,7 @@ curl https://sh.rustup.rs -sSf | sh -s -- -y
 ## Install SDKMan
 # https://sdkman.io/
 curl -s "https://get.sdkman.io" | bash 
+
+## Install fuzzy finder
+# https://github.com/junegunn/fzf
+sudo apt install -y fzf
