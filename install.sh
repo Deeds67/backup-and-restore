@@ -52,6 +52,12 @@ source "$HOME/.sdkman/bin/sdkman-init.sh"
 ## Install kotlin
 sdk install kotlin
 
+## Install scala
+sdk install scala
+
+## Install sbt
+sdk install sbt
+
 ## Install fuzzy finder
 # https://github.com/junegunn/fzf
 sudo apt install -y fzf
