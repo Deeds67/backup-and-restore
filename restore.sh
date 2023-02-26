@@ -2,5 +2,5 @@
 dconf load / < saved_settings.dconf
 
 ## Restore guake config
-guake --restore-preferences guake_prefs
+#guake --restore-preferences guake_prefs
 

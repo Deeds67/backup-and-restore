@@ -30,7 +30,7 @@ sudo apt -y install zsh
 yes | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ## Install guake
-sudo apt -y install guake
+#sudo apt -y install guake
 
 ## Install Gnome tweaks for disabling windows key
 sudo apt-get install -y gnome-tweaks
