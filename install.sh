@@ -29,9 +29,6 @@ FILE=~/.zshrc
 # Check if line exists, if it does not, add contents to file
 grep -qF -- "$LINE" "$FILE" || echo "$CONTENTS" >> "$FILE"
 
-## Install guake
-#sudo apt -y install guake
-
 ## Install Gnome tweaks for disabling windows key
 sudo apt-get install -y gnome-tweaks
 
@@ -44,4 +41,9 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 && sudo apt install gh -y
 
 ## Install rust
+# https://www.rust-lang.org/tools/install
 curl https://sh.rustup.rs -sSf | sh -s -- -y
+
+## Install SDKMan
+# https://sdkman.io/
+curl -s "https://get.sdkman.io" | bash 
