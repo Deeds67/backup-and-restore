@@ -49,6 +49,10 @@ curl https://sh.rustup.rs -sSf | sh -s -- -y
 curl -s "https://get.sdkman.io" | bash 
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 
+## Install JDK
+# https://sdkman.io/jdks
+sdk install java 19.0.2-zulu
+
 ## Install kotlin
 sdk install kotlin
 
