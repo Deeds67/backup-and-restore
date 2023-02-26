@@ -4,6 +4,12 @@ sudo apt -y update && sudo apt -y upgrade
 ## Install basics
 sudo apt-get install -y htop vim tmux jq ncdu pigz sudo pv unzip curl wget git
 
+## Install ZSH
+sudo apt -y install zsh
+
+## Install Oh My ZSH
+yes | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 ## Install packages needed for pyenv
 sudo apt-get install -y --no-install-recommends make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
 
@@ -22,12 +28,6 @@ FILE=~/.zshrc
 
 # Check if line exists, if it does not, add contents to file
 grep -qF -- "$LINE" "$FILE" || echo "$CONTENTS" >> "$FILE"
-
-## Install ZSH
-sudo apt -y install zsh
-
-## Install Oh My ZSH
-yes | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ## Install guake
 #sudo apt -y install guake
