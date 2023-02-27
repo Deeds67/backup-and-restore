@@ -54,12 +54,48 @@ allow-bold=true
 palette='#000000000000:#cccc00000000:#4e4e9a9a0606:#c4c4a0a00000:#34346565a4a4:#757550507b7b:#060698209a9a:#d3d3d7d7cfcf:#555557575353:#efef29292929:#8a8ae2e23434:#fcfce9e94f4f:#72729f9fcfcf:#adad7f7fa8a8:#3434e2e2e2e2:#eeeeeeeeecec:#ffffffffffff:#000000000000'
 palette-name='Tango'
 
+[com/github/amezin/ddterm]
+background-opacity=0.83999999999999997
+command='custom-command'
+custom-command='zsh'
+ddterm-toggle-hotkey=['<Super>grave']
+hide-when-focus-lost=true
+palette=['rgb(23,20,33)', 'rgb(192,28,40)', 'rgb(38,162,105)', 'rgb(162,115,76)', 'rgb(18,72,139)', 'rgb(163,71,186)', 'rgb(42,161,179)', 'rgb(208,207,204)', 'rgb(94,92,100)', 'rgb(246,97,81)', 'rgb(51,218,122)', 'rgb(233,173,12)', 'rgb(42,123,222)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
+preserve-working-directory=false
+shortcut-find=['<Control>f']
+shortcut-page-close=['<Control>w']
+shortcut-switch-to-tab-1=['<Control>1']
+shortcut-switch-to-tab-10=['<Control>0']
+shortcut-switch-to-tab-2=['<Control>2']
+shortcut-switch-to-tab-3=['<Control>3']
+shortcut-switch-to-tab-4=['<Control>4']
+shortcut-switch-to-tab-5=['<Control>5']
+shortcut-switch-to-tab-6=['<Control>6']
+shortcut-switch-to-tab-7=['<Control>7']
+shortcut-switch-to-tab-8=['<Control>8']
+shortcut-switch-to-tab-9=['<Control>9']
+shortcut-terminal-reset-and-clear=['<Control>k']
+shortcut-win-new-tab=['<Control>t']
+tab-label-ellipsize-mode='middle'
+tab-label-width=0.089999999999999997
+tab-position='top'
+window-maximize=false
+window-size=0.45525568181818182
+
+[com/github/donadigo/eddy]
+mime-types=['application/vnd.debian.binary-package', 'application/x-deb']
+window-x=88
+window-y=120
+
 [io/elementary/appcenter/settings]
-cached-drivers=['nvidia-driver-525-server, (kernel modules provided by nvidia-dkms-525-server)', 'nvidia-driver-515-open, (kernel modules provided by nvidia-dkms-515-open)', 'nvidia-driver-525-open, (kernel modules provided by nvidia-dkms-525-open)', 'nvidia-driver-515-server, (kernel modules provided by nvidia-dkms-515-server)', 'nvidia-driver-470, (kernel modules provided by nvidia-dkms-470)', 'nvidia-driver-470-server, (kernel modules provided by nvidia-dkms-470-server)', 'nvidia-driver-450-server, (kernel modules provided by nvidia-dkms-450-server)', 'nvidia-driver-510, (kernel modules provided by nvidia-dkms-510)', 'nvidia-driver-525, (kernel modules provided by nvidia-dkms-525)', 'nvidia-driver-418-server, (kernel modules provided by nvidia-dkms-418-server)']
-last-refresh-time=int64 1677352071
+cached-drivers=['nvidia-driver-525-open, (kernel modules provided by nvidia-dkms-525-open)', 'nvidia-driver-450-server, (kernel modules provided by nvidia-dkms-450-server)', 'nvidia-driver-510, (kernel modules provided by nvidia-dkms-510)', 'nvidia-driver-470, (kernel modules provided by nvidia-dkms-470)', 'nvidia-driver-525-server, (kernel modules provided by nvidia-dkms-525-server)', 'nvidia-driver-470-server, (kernel modules provided by nvidia-dkms-470-server)', 'nvidia-driver-418-server, (kernel modules provided by nvidia-dkms-418-server)', 'nvidia-driver-515-open, (kernel modules provided by nvidia-dkms-515-open)', 'nvidia-driver-515-server, (kernel modules provided by nvidia-dkms-515-server)', 'nvidia-driver-525, (kernel modules provided by nvidia-dkms-525)']
+last-refresh-time=int64 1677434885
+window-maximized=false
+window-position=(50, 82)
+window-size=(1100, 660)
 
 [org/gnome/control-center]
-last-panel='desktop-dock'
+last-panel='keyboard'
 
 [org/gnome/desktop/app-folders/folders/Pop-Office]
 apps=['libreoffice-calc.desktop', 'libreoffice-draw.desktop', 'libreoffice-impress.desktop', 'libreoffice-math.desktop', 'libreoffice-startcenter.desktop', 'libreoffice-writer.desktop']
@@ -76,6 +112,13 @@ apps=['com.github.donadigo.eddy.desktop', 'com.system76.Popsicle.desktop', 'guch
 name='Utilities'
 translate=true
 
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri-dark='file:///usr/share/backgrounds/pop/benjamin-voros-250200.jpg'
+primary-color='#000000'
+secondary-color='#000000'
+
 [org/gnome/desktop/input-sources]
 current=uint32 0
 per-window=false
@@ -88,7 +131,19 @@ font-antialiasing='grayscale'
 font-hinting='slight'
 
 [org/gnome/desktop/notifications]
-application-children=['firefox', 'gnome-power-panel']
+application-children=['firefox', 'gnome-power-panel', 'org-gnome-evolution-alarm-notify', 'io-elementary-appcenter', 'com-spotify-client', 'org-gnome-nautilus', 'discord', 'com-visualstudio-code', 'code', 'org-gnome-tweaks']
+
+[org/gnome/desktop/notifications/application/code]
+application-id='code.desktop'
+
+[org/gnome/desktop/notifications/application/com-spotify-client]
+application-id='com.spotify.Client.desktop'
+
+[org/gnome/desktop/notifications/application/com-visualstudio-code]
+application-id='com.visualstudio.code.desktop'
+
+[org/gnome/desktop/notifications/application/discord]
+application-id='discord.desktop'
 
 [org/gnome/desktop/notifications/application/firefox]
 application-id='firefox.desktop'
@@ -96,8 +151,23 @@ application-id='firefox.desktop'
 [org/gnome/desktop/notifications/application/gnome-power-panel]
 application-id='gnome-power-panel.desktop'
 
+[org/gnome/desktop/notifications/application/io-elementary-appcenter]
+application-id='io.elementary.appcenter.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-evolution-alarm-notify]
+application-id='org.gnome.Evolution-alarm-notify.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-tweaks]
+application-id='org.gnome.tweaks.desktop'
+
 [org/gnome/desktop/peripherals/keyboard]
 numlock-state=true
+
+[org/gnome/desktop/peripherals/mouse]
+speed=-0.48529411764705888
 
 [org/gnome/desktop/peripherals/touchpad]
 two-finger-scrolling-enabled=true
@@ -105,14 +175,57 @@ two-finger-scrolling-enabled=true
 [org/gnome/desktop/privacy]
 report-technical-problems=false
 
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/pop/benjamin-voros-250200.jpg'
+primary-color='#000000'
+secondary-color='#000000'
+
+[org/gnome/desktop/session]
+idle-delay=uint32 900
+
 [org/gnome/desktop/wm/keybindings]
 activate-window-menu=@as []
 switch-group=@as []
 switch-group-backward=@as []
 
+[org/gnome/desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
+
 [org/gnome/evolution-data-server]
 migrated=true
 network-monitor-gio-name=''
+
+[org/gnome/evolution-data-server/calendar]
+reminders-past=['1b437c829027f0af4c60c7c0a12cc04ad5b1ccc8\n263f7ef908f44488122894bb231cb8e13299eb7b\t20230228T080000\n1677481200\n1677567600\n1677571200\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Berlin:20220816T080000\r\nDTEND;TZID=Europe/Berlin:20220816T090000\r\nRRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=TU\r\nDTSTAMP:20230227T074340Z\r\nORGANIZER;CN=pierremarais67@gmail.com:mailto:pierremarais67@gmail.com\r\nUID:\r\n ccrj4dj3c9i6cbb26gsm4b9kcgsjabb2ccqm8b9g65i3ae9lcgr6aohmcc_R20220816T06000\r\n 0@google.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;\r\n CN=Aurelia F;X-NUM-GUESTS=0:mailto:aurelia.felicitas@gmail.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;\r\n CN=pierremarais67@gmail.com;X-NUM-GUESTS=0:mailto:\r\n pierremarais67@gmail.com\r\nX-GOOGLE-CONFERENCE:https://meet.google.com/hbw-vvos-dkv\r\nCREATED:20210921T142054Z\r\nDESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:\r\n ~:~:~:~:~:~:~:~:~::~:~::-\\nJoin with Google Meet: https:\r\n //meet.google.com/hbw-vvos-dkv\\n\\nLearn more about Meet at: https:\r\n //support.google.com/a/users/answer/9282720\\n\\nPlease do not edit this \r\n section.\\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:\r\n ~:~:~:~:~:~:~:~::~:~::-\r\nLAST-MODIFIED:20230227T074340Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Biotonne müllabfuhr\r\nTRANSP:OPAQUE\r\nX-WR-ITIPALREADYSENT:DONE\r\nX-EVOLUTION-CALDAV-ETAG:63813167020\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:ff6dd76990c8df8a420bb5c3475e4bc7d25578e7\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-P1D\r\nX-EVOLUTION-ALARM-UID:263f7ef908f44488122894bb231cb8e13299eb7b\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:NONE\r\nTRIGGER;VALUE=DATE-TIME:19760401T005545Z\r\nX-EVOLUTION-ALARM-UID:286b9f486c63e7f87afc8ddf8709b030c9bcc541\r\nEND:VALARM\r\nEND:VEVENT\r\n', '1b437c829027f0af4c60c7c0a12cc04ad5b1ccc8\n5711d054962cfaa6800e3a524ce472b125a4f247\t20230226T090000\n1677396600\n1677398400\n1677402000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Berlin:20230226T090000\r\nDTEND;TZID=Europe/Berlin:20230226T100000\r\nDTSTAMP:20230225T080404Z\r\nUID:\r\n 6tij6e35cpi3ab9gc9j32b9kccom8b9p64q62b9ic8smcdph74s3gcj6cc@google.com\r\nCREATED:20230225T080404Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20230225T080404Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Book free Museum tickets\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63812995444\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:5711d054962cfaa6800e3a524ce472b125a4f247\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-P1D\r\nX-EVOLUTION-ALARM-UID:037897ebb29a03138c9bdd6ca0e50245126cd193\r\nEND:VALARM\r\nEND:VEVENT\r\n']
+
+[org/gnome/file-roller/dialogs/extract]
+recreate-folders=true
+skip-newer=false
+
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=250
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=480
+window-width=600
+
+[org/gnome/mutter]
+experimental-features=@as []
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+maximized=false
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1]
 binding='Launch1'
@@ -126,6 +239,8 @@ sleep-inactive-battery-timeout=1800
 sleep-inactive-battery-type='suspend'
 
 [org/gnome/shell]
+enabled-extensions=['ding@rastersoft.com', 'pop-cosmic@system76.com', 'pop-shell@system76.com', 'system76-power@system76.com', 'ubuntu-appindicators@ubuntu.com', 'cosmic-dock@system76.com', 'cosmic-workspaces@system76.com', 'popx11gestures@system76.com', 'ddterm@amezin.github.com']
+favorite-apps=['pop-cosmic-launcher.desktop', 'firefox.desktop', 'code.desktop', 'com.jetbrains.IntelliJ-IDEA-Community.desktop', 'com.spotify.Client.desktop', 'pop-cosmic-workspaces.desktop', 'pop-cosmic-applications.desktop', 'org.gnome.Nautilus.desktop', 'io.elementary.appcenter.desktop', 'gnome-control-center.desktop']
 welcome-dialog-last-shown-version='42.5'
 
 [org/gnome/shell/extensions/dash-to-dock]
@@ -135,8 +250,39 @@ extend-height=false
 intellihide=true
 manualhide=false
 
+[org/gnome/shell/extensions/pop-cosmic]
+clock-alignment='RIGHT'
+
 [org/gnome/shell/extensions/pop-shell]
 activate-launcher=['<Super>slash', '<Alt>space']
+tile-enter=['<Super>Return']
 
 [org/gnome/system/location]
 enabled=false
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=162
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-size=(805, 374)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=150
+sort-column='name'
+sort-directories-first=true
+sort-order='ascending'
+type-format='category'
+window-position=(732, 236)
+window-size=(1096, 953)
