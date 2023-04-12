@@ -5,4 +5,4 @@ https://extensions.gnome.org/extension/3780/ddterm/
 * VSCode
 * Spotify
 * Discord
-
+* Printer drivers - use the driver install tool (https://support.brother.com/g/b/productsearch.aspx?c=us&lang=en&content=dl)
