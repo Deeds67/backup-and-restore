@@ -8,4 +8,4 @@
 * gpg
 * kubectl
 * terraform
-  
+* lazydocker
