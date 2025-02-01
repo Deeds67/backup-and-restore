@@ -107,3 +107,5 @@ sudo ./aws/install
 ## Install wmctrl to launch apps via hotkeys
 sudo apt install wmctrl
 
+## Install lazydocker https://github.com/jesseduffield/lazydocker
+brew install jesseduffield/lazydocker/lazydocker
