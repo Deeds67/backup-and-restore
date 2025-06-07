@@ -9,3 +9,4 @@
 * kubectl
 * terraform
 * lazydocker
+* lookaway https://lookaway.app/
